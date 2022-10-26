@@ -82,7 +82,9 @@ return packer.startup(function(use)
   use({ 'glepnir/lspsaga.nvim', branch = 'main' })
   use('onsails/lspkind-nvim')
   use('akinsho/flutter-tools.nvim')
-
+  
+  -- vimtex 
+  use('lervag/vimtex')
 
   if packer_bootstrap then
     require("packer").sync()
