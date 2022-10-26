@@ -35,4 +35,13 @@ opt.splitright = true
 
 opt.iskeyword:append("-")
 
-
+-- if not dart, set cc and cw to wrap 80 characters
+-- if the file type is not dart 
+if vim.bo.filetype ~= "dart" then
+    opt.cc = "80"
+    opt.tw = 79
+end 
+if vim.bo.filetype == "dart" then
+    opt.cc = "120"
+    opt.tw = 119
+end
