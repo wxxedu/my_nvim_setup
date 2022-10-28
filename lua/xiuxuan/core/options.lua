@@ -45,3 +45,7 @@ if vim.bo.filetype == "dart" then
     opt.cc = "120"
     opt.tw = 119
 end
+
+-- encodings 
+opt.encoding = "utf-8" 
+opt.fileencoding = "utf-8"
