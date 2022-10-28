@@ -86,6 +86,9 @@ return packer.startup(function(use)
   -- vimtex 
   use('lervag/vimtex')
 
+  -- protobuf 
+  use('wfxr/protobuf.vim')
+
   if packer_bootstrap then
     require("packer").sync()
   end
