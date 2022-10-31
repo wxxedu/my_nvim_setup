@@ -15,4 +15,24 @@ nvimtree.setup({
       },
     },
   },
+  -- ignore .git, node_modules, .cache, .DS_Store, .vscode, .idea,
+  -- .vscode-server, and latex build files 
+  filters = {
+    custom = {
+      ".git",
+      "node_modules",
+      ".cache",
+      ".DS_Store",
+      ".vscode",
+      ".idea",
+      ".vscode-server",
+      "*.aux",
+      "*.fdb_latexmk",
+      "*.fls",
+      "*.log",
+      "*.out",
+      "*.synctex.gz",
+      "*.toc",
+    }
+  }
 })

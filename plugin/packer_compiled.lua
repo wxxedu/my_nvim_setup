@@ -179,6 +179,11 @@ _G.packer_plugins = {
     path = "/Users/xiuxuan/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["protobuf.vim"] = {
+    loaded = true,
+    path = "/Users/xiuxuan/.local/share/nvim/site/pack/packer/start/protobuf.vim",
+    url = "https://github.com/wfxr/protobuf.vim"
+  },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
     path = "/Users/xiuxuan/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",

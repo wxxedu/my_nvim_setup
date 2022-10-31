@@ -69,7 +69,7 @@ return packer.startup(function(use)
   -- snippets
   use('L3MON4D3/LuaSnip')
   use('saadparwaiz1/cmp_luasnip')
-  use('rafamadriz/friendly-snippets')
+  use('wxxedu/friendly-snippets')
 
   -- lsp
   -- managing & installing language servers
@@ -86,7 +86,7 @@ return packer.startup(function(use)
   -- vimtex 
   use('lervag/vimtex')
 
-  -- protobuf 
+  -- protoburafamadrizf 
   use('wfxr/protobuf.vim')
 
   if packer_bootstrap then

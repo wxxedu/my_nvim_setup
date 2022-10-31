@@ -37,3 +37,5 @@ keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<CR>")
 keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<CR>")
 keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<CR>")
 
+-- vimtex 
+keymap.set("n", "<leader>ll", ":VimtexCompile<CR>")
