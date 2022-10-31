@@ -122,7 +122,7 @@ _G.packer_plugins = {
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/xiuxuan/.local/share/nvim/site/pack/packer/start/friendly-snippets",
-    url = "https://github.com/rafamadriz/friendly-snippets"
+    url = "https://github.com/wxxedu/friendly-snippets"
   },
   ["lspkind-nvim"] = {
     loaded = true,
