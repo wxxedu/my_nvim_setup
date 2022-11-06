@@ -49,3 +49,7 @@ end
 -- encodings 
 opt.encoding = "utf-8" 
 opt.fileencoding = "utf-8"
+
+
+-- automatically center on save 
+vim.cmd [[ autocmd BufWritePost * :normal! zz ]]

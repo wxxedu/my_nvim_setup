@@ -89,6 +89,8 @@ return packer.startup(function(use)
   -- protoburafamadrizf 
   use('wfxr/protobuf.vim')
 
+  -- latex fold 
+  use('matze/vim-tex-fold')
   if packer_bootstrap then
     require("packer").sync()
   end

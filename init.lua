@@ -11,4 +11,4 @@ require('xiuxuan.plugins.lsp.mason')
 require('xiuxuan.plugins.lsp.lspsaga')
 require('xiuxuan.plugins.lsp.lspconfig')
 require('xiuxuan.plugins.vimtex')
-
+require('xiuxuan.plugins.copilot')
