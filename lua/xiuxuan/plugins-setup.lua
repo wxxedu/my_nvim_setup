@@ -85,6 +85,7 @@ return packer.startup(function(use)
   -- flutter 
   use('akinsho/flutter-tools.nvim')
   use('wxxedu/flutter-riverpod-snippets')
+  use('wxxedu/awesome-flutter-snippets')
   -- vimtex 
   use('lervag/vimtex')
 

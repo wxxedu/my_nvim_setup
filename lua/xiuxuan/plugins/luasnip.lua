@@ -12,7 +12,12 @@ end
 local flutter_riverpod_snippets_status, flutter_riverpod_snippets = pcall(require, "flutter-riverpod-snippets")
 if not flutter_riverpod_snippets_status then
   return
-end 
+end
+
+local awesome_flutter_snippets_status, awesome_flutter_snippets = pcall(require, "awesome-flutter-snippets")
+if not awesome_flutter_snippets_status then
+  return
+end
 
 -- extend to flutter
 luasnip.filetype_extend("dart", {"flutter"})
@@ -20,7 +25,8 @@ luasnip.filetype_extend("dart", {"flutter"})
 require("luasnip.loaders.from_vscode").lazy_load({
   paths = {
     friendly_snippets,
-    flutter_riverpod_snippets, 
+    flutter_riverpod_snippets,
+    awesome_flutter_snippets,
   },
   include = {
     "dart",

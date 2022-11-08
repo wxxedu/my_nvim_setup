@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/Users/xiuxuan/.local/share/nvim/site/pack/packer/start/ReplaceWithRegister",
     url = "https://github.com/vim-scripts/ReplaceWithRegister"
   },
+  ["awesome-flutter-snippets"] = {
+    loaded = true,
+    path = "/Users/xiuxuan/.local/share/nvim/site/pack/packer/start/awesome-flutter-snippets",
+    url = "https://github.com/wxxedu/awesome-flutter-snippets"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/xiuxuan/.local/share/nvim/site/pack/packer/start/cmp-buffer",
