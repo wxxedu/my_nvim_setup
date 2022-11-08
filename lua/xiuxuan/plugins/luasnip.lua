@@ -16,6 +16,7 @@ luasnip.filetype_extend("dart", {"flutter"})
 require("luasnip.loaders.from_vscode").lazy_load({
   paths = {
     friendly_snippets,
+    './snippets/flutter-riverpod-snippets/',
   },
   include = {
     "dart",
