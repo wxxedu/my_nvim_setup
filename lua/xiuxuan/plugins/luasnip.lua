@@ -9,6 +9,10 @@ if not friendly_snippets_status then
   return
 end
 
+local flutter_riverpod_snippets_status, flutter_riverpod_snippets = pcall(require, "flutter-riverpod-snippets")
+if not flutter_riverpod_snippets_status then
+  return
+end 
 
 -- extend to flutter
 luasnip.filetype_extend("dart", {"flutter"})
@@ -16,7 +20,7 @@ luasnip.filetype_extend("dart", {"flutter"})
 require("luasnip.loaders.from_vscode").lazy_load({
   paths = {
     friendly_snippets,
-    './snippets/flutter-riverpod-snippets',
+    flutter_riverpod_snippets, 
   },
   include = {
     "dart",

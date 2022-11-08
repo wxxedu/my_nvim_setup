@@ -81,9 +81,10 @@ return packer.startup(function(use)
   use('hrsh7th/cmp-nvim-lsp')
   use({ 'glepnir/lspsaga.nvim', branch = 'main' })
   use('onsails/lspkind-nvim')
-  use('akinsho/flutter-tools.nvim')
 
   -- flutter 
+  use('akinsho/flutter-tools.nvim')
+  use('wxxedu/flutter-riverpod-snippets')
   -- vimtex 
   use('lervag/vimtex')
 

@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/Users/xiuxuan/.local/share/nvim/site/pack/packer/start/copilot.vim",
     url = "https://github.com/github/copilot.vim"
   },
+  ["flutter-riverpod-snippets"] = {
+    loaded = true,
+    path = "/Users/xiuxuan/.local/share/nvim/site/pack/packer/start/flutter-riverpod-snippets",
+    url = "https://github.com/wxxedu/flutter-riverpod-snippets"
+  },
   ["flutter-tools.nvim"] = {
     loaded = true,
     path = "/Users/xiuxuan/.local/share/nvim/site/pack/packer/start/flutter-tools.nvim",
