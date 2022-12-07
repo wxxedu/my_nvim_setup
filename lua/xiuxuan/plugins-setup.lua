@@ -86,14 +86,20 @@ return packer.startup(function(use)
   use('akinsho/flutter-tools.nvim')
   use('wxxedu/flutter-riverpod-snippets')
   use('wxxedu/awesome-flutter-snippets')
+  use('dart-lang/dart-vim-plugin')
   -- vimtex 
   use('lervag/vimtex')
 
   -- protoburafamadrizf 
   use('wfxr/protobuf.vim')
+  
+  -- csv 
+  use('chrisbra/csv.vim')
+
+  -- web development 
+  use('mattn/emmet-vim')
 
   -- latex fold 
-  use('matze/vim-tex-fold')
   if packer_bootstrap then
     require("packer").sync()
   end

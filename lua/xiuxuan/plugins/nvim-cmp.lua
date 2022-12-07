@@ -37,10 +37,10 @@ cmp.setup({
     }),
   },
   sources = {
-    { name = 'nvim_lsp' },
-    { name = 'luasnip' },
-    { name = 'buffer' },
-    { name = 'path' },
+    { name = 'nvim_lsp', priority = 40 },
+    { name = 'luasnip', priority = 50 },
+    { name = 'buffer', priority = 30 },
+    { name = 'path' , priority = 20},
   },
   formatting = {
     format = lspkind.cmp_format({ 

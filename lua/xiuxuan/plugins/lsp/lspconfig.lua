@@ -78,6 +78,7 @@ lspconfig["pyright"].setup {
 }
 
 -- c / c++ 
+capabilities.offsetEncoding = { "utf-16" }
 lspconfig["clangd"].setup {
   capabilities = capabilities,
   on_attach = on_attach,

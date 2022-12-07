@@ -35,20 +35,17 @@ opt.splitright = true
 
 opt.iskeyword:append("-")
 
--- if not dart, set cc and cw to wrap 80 characters
--- if the file type is not dart 
-if vim.bo.filetype ~= "dart" then
-    opt.cc = "80"
-    opt.tw = 79
+-- auto-linebreak in text files, tex files, markdown files, etc.
+if vim.bo.filetype == "text" or vim.bo.filetype == "tex" or vim.bo.filetype == "markdown" then
+    opt.wrap = true
+    opt.cc = 80
+    opt.textwidth = 80
 end 
-if vim.bo.filetype == "dart" then
-    opt.cc = "120"
-    opt.tw = 119
-end
 
 -- encodings 
-opt.encoding = "utf-8" 
+opt.encoding = "utf-8"
 opt.fileencoding = "utf-8"
+
 
 
 -- automatically center on save 

@@ -39,3 +39,15 @@ keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<CR>")
 
 -- vimtex 
 keymap.set("n", "<leader>ll", ":VimtexCompile<CR>")
+
+-- vim-text-fold 
+keymap.set("n", "<leader>.", ":foldclose<CR>")
+keymap.set("n", "<leader>,", ":foldopen<CR>")
+
+-- flutter 
+keymap.set("n", "<leader>fl", ":FlutterRun<CR>")
+keymap.set("n", "<leader>fq", ":FlutterQuit<CR>")
+keymap.set("n", "<leader>fh", ":FlutterHotReload<CR>")
+keymap.set("n", "<leader>fr", ":FlutterRestart<CR>")
+keymap.set("n", "<leader>fd", ":FlutterOpenDevTools<CR>")
+keymap.set("n", "<leader>fm", ":DartFmt<CR>")

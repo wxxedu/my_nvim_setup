@@ -119,6 +119,21 @@ _G.packer_plugins = {
     path = "/Users/xiuxuan/.local/share/nvim/site/pack/packer/start/copilot.vim",
     url = "https://github.com/github/copilot.vim"
   },
+  ["csv.vim"] = {
+    loaded = true,
+    path = "/Users/xiuxuan/.local/share/nvim/site/pack/packer/start/csv.vim",
+    url = "https://github.com/chrisbra/csv.vim"
+  },
+  ["dart-vim-plugin"] = {
+    loaded = true,
+    path = "/Users/xiuxuan/.local/share/nvim/site/pack/packer/start/dart-vim-plugin",
+    url = "https://github.com/dart-lang/dart-vim-plugin"
+  },
+  ["emmet-vim"] = {
+    loaded = true,
+    path = "/Users/xiuxuan/.local/share/nvim/site/pack/packer/start/emmet-vim",
+    url = "https://github.com/mattn/emmet-vim"
+  },
   ["flutter-riverpod-snippets"] = {
     loaded = true,
     path = "/Users/xiuxuan/.local/share/nvim/site/pack/packer/start/flutter-riverpod-snippets",
@@ -218,11 +233,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/xiuxuan/.local/share/nvim/site/pack/packer/start/vim-surround",
     url = "https://github.com/tpope/vim-surround"
-  },
-  ["vim-tex-fold"] = {
-    loaded = true,
-    path = "/Users/xiuxuan/.local/share/nvim/site/pack/packer/start/vim-tex-fold",
-    url = "https://github.com/matze/vim-tex-fold"
   },
   ["vim-tmux-navigator"] = {
     loaded = true,
