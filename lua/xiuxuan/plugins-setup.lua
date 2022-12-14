@@ -26,13 +26,13 @@ end
 
 return packer.startup(function(use)
   -- packer
-  use('wbthomason/packer.nvim') 
+  use('wbthomason/packer.nvim')
 
   -- used by other plugins
   use('nvim-lua/plenary.nvim')
 
   -- colorscheme
-  use('bluz71/vim-nightfly-guicolors') 
+  use('bluz71/vim-nightfly-guicolors')
 
   -- tmux & split window navigation
   use('christoomey/vim-tmux-navigator')
@@ -92,12 +92,15 @@ return packer.startup(function(use)
 
   -- protoburafamadrizf 
   use('wfxr/protobuf.vim')
-  
+
   -- csv 
   use('chrisbra/csv.vim')
 
   -- web development 
   use('mattn/emmet-vim')
+
+  -- smooth scrolling 
+  use('psliwka/vim-smoothie')
 
   -- latex fold 
   if packer_bootstrap then

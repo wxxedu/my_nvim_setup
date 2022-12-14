@@ -40,7 +40,7 @@ if vim.bo.filetype == "text" or vim.bo.filetype == "tex" or vim.bo.filetype == "
     opt.wrap = true
     opt.cc = 80
     opt.textwidth = 80
-end 
+end
 
 -- encodings 
 opt.encoding = "utf-8"
