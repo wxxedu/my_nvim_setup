@@ -33,6 +33,8 @@ nvimtree.setup({
       "*.out",
       "*.synctex.gz",
       "*.toc",
+      "*.swp",
+      ".dart_tool",
     }
   }
 })
