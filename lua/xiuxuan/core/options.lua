@@ -46,7 +46,8 @@ end
 opt.encoding = "utf-8"
 opt.fileencoding = "utf-8"
 
-
+-- swp file directory 
+opt.directory = "." -- put swp files in the same directory as the file
 
 -- automatically center on save 
 vim.cmd [[ autocmd BufWritePost * :normal! zz]]
