@@ -102,6 +102,13 @@ return packer.startup(function(use)
   -- smooth scrolling 
   use('psliwka/vim-smoothie')
 
+  -- React & React Native 
+  use('mxw/vim-jsx')
+  use('pangloss/vim-javascript')
+  use('leafgarland/typescript-vim')
+  use('peitalin/vim-jsx-typescript')
+
+
   -- latex fold 
   if packer_bootstrap then
     require("packer").sync()
