@@ -36,9 +36,9 @@ opt.splitright = true
 opt.iskeyword:append("-")
 
 -- auto-linebreak in text files, tex files, markdown files, etc.
+opt.colorcolumn = "80"
 if vim.bo.filetype == "text" or vim.bo.filetype == "tex" or vim.bo.filetype == "markdown" then
     opt.wrap = true
-    opt.cc = 80
     opt.textwidth = 80
 end
 
