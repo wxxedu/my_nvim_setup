@@ -219,6 +219,26 @@ _G.packer_plugins = {
     path = "/Users/xiuxuan/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["typescript-vim"] = {
+    loaded = true,
+    path = "/Users/xiuxuan/.local/share/nvim/site/pack/packer/start/typescript-vim",
+    url = "https://github.com/leafgarland/typescript-vim"
+  },
+  ["vim-javascript"] = {
+    loaded = true,
+    path = "/Users/xiuxuan/.local/share/nvim/site/pack/packer/start/vim-javascript",
+    url = "https://github.com/pangloss/vim-javascript"
+  },
+  ["vim-jsx"] = {
+    loaded = true,
+    path = "/Users/xiuxuan/.local/share/nvim/site/pack/packer/start/vim-jsx",
+    url = "https://github.com/mxw/vim-jsx"
+  },
+  ["vim-jsx-typescript"] = {
+    loaded = true,
+    path = "/Users/xiuxuan/.local/share/nvim/site/pack/packer/start/vim-jsx-typescript",
+    url = "https://github.com/peitalin/vim-jsx-typescript"
+  },
   ["vim-maximizer"] = {
     loaded = true,
     path = "/Users/xiuxuan/.local/share/nvim/site/pack/packer/start/vim-maximizer",
